@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: 20170306MikeMoore
+  host: 20170306MikeMoore
+  disk_quota: 1024M
+  services:
+  - 20170306MikeMoore-cloudantNoSQLDB
